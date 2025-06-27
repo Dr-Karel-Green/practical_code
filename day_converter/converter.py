@@ -9,6 +9,7 @@ corresponds to
 import PyInstaller
 import datetime as dt
 import tkinter as tk
+
 #%% Functions
 
 def days_to_ymd(total_days):
@@ -71,4 +72,4 @@ root.bind('<Return>', on_click)
 #%%Running the applicaiotn
 root.mainloop()
 #%% save as exe
-
+#pyinstaller --onefile --windowed converter.py [write that in the terminal]
